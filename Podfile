@@ -28,14 +28,14 @@ end
 
 target 'MatomoTrackerTests' do
   use_frameworks!
-  platform :ios, '13.0'
+  platform :visionos, '1.0'
   inhibit_all_warnings!
   project 'MatomoTracker'
   workspace 'MatomoTracker'
   inherit! :search_paths
   
   pod 'Quick', '~> 7.0'
-  pod 'Nimble', '~> 12.0'
+  pod 'Nimble', '~> 13.0'
 end
 
 # https://github.com/CocoaPods/CocoaPods/issues/11402
